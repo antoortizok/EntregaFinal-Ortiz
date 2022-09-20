@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --select: #427AA1;
+    --background: #EBF2FA;
+}
+
+body {
+    background-color: var(--background);
+    overflow-x: hidden;
+}
+
+header {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.548);
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: white;
+
+}
+
+nav a {
+    padding: 0.7em 1em;
+    margin: 0em 0.4em;
+    color: black;
+    text-decoration: none;
+    border-radius: 2em;
+
+}
+
+.select {
+    color: white;
+    background-color: var(--select);
+}
+
+nav a:hover {
+    color: white;
+    background-color: var(--select);
+}
+
+.Nav--Section__contenedorLogo--Img {
+    width: 6em;
+
+}
+
+/*main*/
+main {
+    background-color: var(--background);
+
+}
+
+.SectionUno {
+    background-image: url(/img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SectionUno--Card__Boton {
+    text-decoration: none;
+    padding: 0.8em 1em;
+    background-color: var(--select);
+    border-radius: 1em;
+    color: white;
+}
+
+.SectionUno--Card__Boton:hover {
+    color: white;
+}
+
+/*Section2*/
+.SectionDos--Contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Section22 {
+    flex-direction: row-reverse;
+}
+
+.SectionDos--Contenedor__ContenerdorImagen--img {
+    width: 45em;
+    border-radius: 2em;
+}
+
+.SectionDos--Contenedor__ContenerdorTexto--title {
+    margin-bottom: 1.5em;
+}
+
+.SectionDos--Contenedor__ContenerdorTexto {
+    margin: 1em;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 1px 10px 8px 1px rgba(0, 0, 0, 0.267);
+    width: 30em;
+    height: auto;
+    overflow: hidden;
+}
+
+.SectionDos--Contenedor__ContenerdorTexto--txt {
+    line-height: 2em;
+}
+
+.SectionDos--Contenedor__ContenerdorTexto--title {
+    height: 1.3em;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+footer section {
+    text-align: center;
+}
+
+.Footer--Section1__Card--parrafo {
+    width: 20em;
+}
+
+.Footer--Contenedor__ContenedorDatos {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*PAGINA DE CONTACTO*/
+
+.SectionUno--PaginaContacto {
+    background-image: url(/img/ContactBck.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.SectionUno--PaginaContacto__Card {
+    background-color: var(--background);
+    width: 24em;
+    height: auto;
+    padding: 3em 2em;
+    border-radius: 0.6em;
+    margin-right: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+}
+
+textarea {
+    border: none;
+}
+
+.btn-Submit {
+    border: none;
+    background-color: var(--select);
+    color: white;
+    border-radius: 0.6em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+/* BOTON FLOTANTE */
+.ContBtnFlotante {
+    background-color: var(--select);
+    display: inline;
+    padding: 1em;
+    border-radius: 8em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.607);
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    /* NavBar */
+    nav {
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        padding: 0.4em 0.9em;
+        margin: 0em 0em;
+        border-radius: 2em;
+        font-size: 0.8em;
+    }
+
+
+    .Nav--Section__contenedorLogo--Img {
+        width: 3em;
+    }
+
+    /* Main */
+
+    .SectionUno {
+        background-image: url(/img/main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        margin-top: 6em;
+        background-position-x: -25em;
+    }
+
+    .SectionDos {
+        padding: 0em;
+        margin: 10em 0em;
+
+    }
+
+    .SectionDos--Contenedor {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 1em;
+        padding: 3em 0em;
+
+    }
+
+    .SectionDos--Contenedor__ContenerdorTexto--txt {
+        line-height: 1.5em;
+    }
+
+    .SectionDos--Contenedor__ContenerdorImagen--img {
+        width: 24em;
+        border-radius: 0.1em;
+    }
+
+    /*Footer*/
+    .Footer--Contenedor__ContenedorDatos {
+        justify-content: center;
+    }
+
+    /* Animaciones */
+    .SectionUno--Card {
+        animation-duration: 3s;
+        animation-name: slidein;
+        opacity: 10;
+    }
+
+    @keyframes slidein {
+        from {
+            opacity: 0;
+
+        }
+    }
+
+
+
+    /* Responsive  Contact*/
+    .SectionUno--PaginaContacto__Card {
+        margin: 0px;
+        margin-top: -10em;
+    }
+
+    .SectionUno--PaginaContacto {
+        background-image: url(/img/ContactBck.jpeg);
+        background-position-x: -50em;
+    }
+}
