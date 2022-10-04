@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/main.css">
     <title>Contacto</title>
 </head>
 
@@ -17,34 +17,39 @@
             </section>
             <section class="Nav--Section__contenedorEnlaces">
                 <a href="index.html" class="Nav--contenedorEnlaces__Enlaces ">Inicio</a>
-                <a href="#" class="Nav--contenedorEnlaces__Enlaces">Vivir en Irlanda</a>
+                <a href="Sobre mi.html" class="Nav--contenedorEnlaces__Enlaces ">Sobre mi</a>
+                <a href="irlanda.html" class="Nav--contenedorEnlaces__Enlaces">Vivir en Irlanda</a>
+                <a href="Asesoria.html" class="Nav--contenedorEnlaces__Enlaces ">Servicios</a>
                 <a href="contacto.html" class="Nav--contenedorEnlaces__Enlaces select">Contacto</a>
             </section>
         </nav>
     </header>
 
-    <main class="container-fluid" style="width: 100vw;padding-left: 0px;padding-right: 0px; display: flex; justify-content: center; align-items: stretch; align-content: center;">
-        <section class="SectionUno--PaginaContacto row" style="margin-right: 0px;margin-left: 0px;">
-            <form class="SectionUno--PaginaContacto__Card" action="">
-                <h2>Formulario de contacto</h2>
+    <main class="PageContact-Container">
+        <form action="">
+            <div>
                 <label for="">Nombre</label>
-                <div>
-                    <input type="text">
-                </div>
-                <label for="">correo</label>
-                <div>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">Mensaje</label>
-                </div>
-                <textarea name="" id="" cols="1" rows="10"></textarea>
-                <div>
-                    <input class="btn-Submit" type="submit">
-                </div>
 
-            </form>
-        </section>
+            </div>
+            <input type="text">
+            <div>
+                <label for="">Correo</label>
+
+            </div>
+            <input type="mail">
+
+            <div>
+                <label for="">Mensaje</label>
+                
+            </div>
+            <textarea name="" id="" cols="21" rows="10"></textarea>
+            <div>
+                <input class="form-enviar" type="submit">
+            </div>
+
+
+
+        </form>
     </main>
 
     <footer>
@@ -143,3 +148,4 @@
 </body>
 
 </html>
+

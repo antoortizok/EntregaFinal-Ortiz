@@ -1,92 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivir en Irlanda</title>
-    <link rel="stylesheet" href="index.css">
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--     <link rel="stylesheet" href="css/style.css"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="icon" type="image/x-icon" href="/img/logo.png">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="sass/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <title>Asesoria de emigracion</title>
+    </head>
 <body>
-    <header class="header">
-        <!-- logo -->
-      <div class="logo"><img src="logo.svg" alt=""></div>
-      <!-- navigator -->
-      <div class="nav-header">
-           <!-- a su vez el navigator tiene una lista de elementos entonces creo la lista con ul, li -->
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">Acerca de mi</a></li>
-              <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="vivirenirlanda.html">Vivir en Irlanda</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-      </div>
-  </header>
-  <br>
 
-  <div>
+    <header>
+        <nav>
+            <section class="Nav--Section__contenedorLogo">
+                <img class="Nav--Section__contenedorLogo--Img" src="img/logo.png" alt="">
+            </section>
+            <section class="Nav--Section__contenedorEnlaces">
+                <a href="index.html" class="Nav--contenedorEnlaces__Enlaces ">Inicio</a>
+                <a href="Sobre mi.html" class="Nav--contenedorEnlaces__Enlaces ">Sobre mi</a>
+                <a href="irlanda.html" class="Nav--contenedorEnlaces__Enlaces select">Vivir en Irlanda</a>
+                <a href="Asesoria.html" class="Nav--contenedorEnlaces__Enlaces">Servicios</a>
+                <a href="contacto.html" class="Nav--contenedorEnlaces__Enlaces">Contacto</a>
+            </section>
+        </nav>
+    </header>
 
-    <h1>Vivir en Irlanda</h1>
-    
-<p>Vivir en Irlanda no solo significa rodearse de cultura mística, paisajes increíbles y buena cerveza. Y es que, por si no lo sabes, la Isla Esmeralda tiene muy buena calidad de vida, empleos bien remunerados y un sistema educativo de primera. ¿Queres conocer más?
+    <main class="ContenedorIrlandaPage">
+        <section class="ContenedorIrlandaPage--PrimeraSeccion">
+            <article class="ContenedorIrlandaPage--PrimeraSeccion__ContenedorImagen">
+                <img class="ContenedorIrlandaPage--PrimeraSeccion__ContenedorImagen--img" src="/img/irlandamain.webp" alt="">
+                <p>Vivir en Irlanda no solo significa rodearse de cultura mística, paisajes increíbles y buena cerveza. Y es que, por si no lo sabes, la Isla Esmeralda tiene muy buena calidad de vida, empleos bien remunerados y un sistema educativo de primera. ¿Queres conocer más? Te cuento cómo es vivir en Irlanda. Además, te doy info muy útil para que planees tu viaje: las mejores ciudades de Irlanda para mudarse, el costo tu estadía, los requisitos y ¡más! Acomódate, servite un café (o un whisky irlandés si lo preferis) y empecemos.</p>
+            </article>
+        </section>
+        <section class="ContenedorIrlandaPage--SegundaSeccion">
+            <article class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen">
+                <img  class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img" src="/img/irlanda1.webp" alt="">
+            </article>
+            <article class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen">
+                <img  class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img" src="/img/irlanda2.webp" alt="">
+            </article>
+            <article class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen">
+                <img  class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img" src="/img/irlanda3.webp" alt="">
+            </article>
+            <article class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen">
+                <img  class="ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img" src="/img/irlanda4.webp" alt="">
+            </article>
+        </section>
+    </main>
 
-Te cuento cómo es vivir en Irlanda. Además, te doy info muy útil para que planees tu viaje: las mejores ciudades de Irlanda para mudarse, el costo tu estadía, los requisitos y ¡más! Acomódate, servite un café (o un whisky irlandés si lo preferis) y empecemos.</p>
+    <footer>
+        <section class="Footer--Section1">
+            <article class="Footer--Section1__Card">
+                <h2 class="Footer--Section1__Card--Titulo">Acerca de mi</h2>
+                <p class="Footer--Section1__Card--parrafo">Ofrezco mentoria personalizada para ayudarte a dar ese salto
+                    que venis postergando para venir a Irlanda.</p>
+            </article>
+        </section>
+        <section class="Footer--Section2">
+            <article class="Footer--Section2__Card">
+                <h2 class="Footer--Section2__Card--Titulo">Contacto</h2>
+                <h5 class="Footer--Section2__Card--Parrafo">Podes encontrarme aqui:</h5>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <p>Dublin, Irlanda</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                    <p>(100) 222-3344</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                    <p>antoortiz.pr@gmail.com</p>
+                </div>
 
-<h2>10 Razones para vivir en Irlanda</h2>
-<ol>
-    <li>La calidad de vida en Irlanda
-        Irlanda es un país con una excelente calidad de vida. El gobierno ha tomado buenas medidas para que sea una nación ecológica y para disminuir los índices de criminalidad.</li>
-        <li>Un lugar ideal para aprender inglés
-            La Isla Esmeralda es el país para aprender inglés ideal. Las escuelas de idiomas son de alto nivel y, al ser una de las lenguas oficiales, la inmersión lingüística es total.</li>
-            <li>El gran sistema educativo de Irlanda
-                El sistema educativo irlandés está entre los mejores de Europa. De hecho, escuelas y universidades irlandesas están entre las mejores instituciones del mundo.</li>
-                <li>La educación accesible
-                    La educación en Irlanda es bastante accesible. La prueba es que vivir en Irlanda para estudiar inglés o profesionalizarte es más económico que hacerlo en otros países de Europa.</li>
-                    <li> La posibilidad de trabajar y estudiar a la vez
-                        ¡Los estudiantes pueden laborar en el país de San Patricio! Cuando estudies en Irlanda, tienes autorización para conseguir un empleo de 20 h semanales.</li>
-                        <li>La baja tasa de desempleo
-                            La tasa de desempleo de Irlanda es baja. Al emigrar a Irlanda, es posible conseguir trabajo en el mundo de la Hostelería o en sectores más especializados con relativa facilidad.</li>
-                            <li>El salario mínimo en Irlanda
-                                El salario mínimo de Irlanda es uno de los más altos de Europa. En promedio, puedes ganar 1656 EUR (euro) mensuales, que es una cifra suficiente para llegar a fin de mes y darte un caprichito.</li>
-                                <li>La cultura laboral de Irlanda
-                                    La cultura de trabajo en este país es muy buena. Los empleadores irlandeses respetan mucho las horas laborales, así que, si trabajas tiempo extra, te dan la remuneración justa.</li>
-                                    <li>La famosa amabilidad de los irlandeses
-                                            Los irlandeses son muy amables, abiertos y divertidos. Al emigrar a Irlanda, ¡es imposible no sentirse bienvenido y a gusto con sus bromas y ocurrencias!</li><li>La belleza de la Isla Esmeralda
-Irlanda es un país hermoso. Los museos, las playas, los acantilados, los pubs y todo lo que hay que ver en Irlanda conquistan a cualquier viajero. Es poco probable que seas la excepción.</li>
-</ol>
-
-<br><br><br><br>
-    <div class="footer">
-        <div class="colA" id="about">
-            <h2>Acerca de mi</h2>
-            <p>Ofrezco mentoria personalizada para ayudarte a dar ese salto que venis postergando para venir a
-                Irlanda.</p>
-        </div>
-        <div class="colB" id="contact">
-            <h2>Contacto</h2>
-            <h3>Podes encontrarme aqui:</h3>
-            <p>Dublin, Irlanda</p>
-            <p>(100) 222-3344</p>
-            <p>antoortiz.pr@gmail.com</p>
-        </div>
-        <div class="colC" id="blog">
-            <h2> Redes sociales</h2>
-            <p> Seguime para estar atento a todas las novedades!</p>
-            <p class="content-instagram">
-                <img src="./iconmonstr-instagram-11-240.png" alt="Ig"> @antoortizok
-            </p>
-            <p class="content-twitter">
-                <img src="./iconmonstr-twitter-5-240.png" alt="Tw"> @antonellaortiz
-            </p>
-        </div>
-    </div>  
-    <div class="clear"></div>
-    <div class="copyright">
-        <p>&copy;antonelitoviajero2022</p> 
-    </div>
+            </article>
+        </section>
+        <section class="Footer--Section3">
+            <article class="Footer--Section3__Card">
+                <h2 class="Footer--Section3__Card--Titulo">Redes sociales</h2>
+                <h5 class="Footer--Section3__Card--Parrafo">Seguime para estar atento a todas las novedades!</h5>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg>
+                    <p>Instagram</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+                    </svg>
+                    <p>Tiktok</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                    <p>Tweet</p>
+                </div>
+            </article>
+        </section>
+    </footer>
 </body>
-
-
 </html>

@@ -1,0 +1,59 @@
+.ContenedorIrlandaPage{
+    margin: 5em 0em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    .ContenedorIrlandaPage--PrimeraSeccion{
+        width: 30vw;
+        height: 40em;
+        padding: 1em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1em;
+        box-shadow: 0px 0px 7px black;
+        .ContenedorIrlandaPage--PrimeraSeccion__ContenedorImagen{
+
+            .ContenedorIrlandaPage--PrimeraSeccion__ContenedorImagen--img{
+                width: 100%;
+                border-top-left-radius: 1em;
+                border-top-right-radius: 1em;
+
+            }
+        }
+    }
+    .ContenedorIrlandaPage--SegundaSeccion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 50vw;
+
+        .ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen{
+            width: 300px;
+            margin: 1em;
+            .ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img{
+                width: 100%;
+            }
+            .ContenedorIrlandaPage--SegundaSeccion__ContenedorImagen--img:hover{
+                width: 103%;
+                
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .ContenedorIrlandaPage{
+        flex-direction: column;
+        .ContenedorIrlandaPage--PrimeraSeccion{
+            width: 100vw;
+        }
+        .ContenedorIrlandaPage--SegundaSeccion{
+            width: 100%;
+        }
+    }
+
+}
+

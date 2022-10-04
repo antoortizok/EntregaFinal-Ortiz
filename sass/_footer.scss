@@ -1,0 +1,89 @@
+footer{
+    background-color: black;
+    color: white;
+    h2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 17px;
+    }
+    p{
+        font-size: 12px;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+    .Footer--Section1{
+        width: 300px;
+    }
+    .Footer--Section2{
+        width: 300px;
+        .Footer--Contenedor__ContenedorDatos{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            p{
+                margin-bottom: 1px;
+            }
+        }
+    }
+    .Footer--Section3__Card{
+        .Footer--Contenedor__ContenedorDatos{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            p{
+                margin-bottom: 1px;
+            }
+        }
+    }
+    
+    .icon{
+        width: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    footer{
+        background-color: black;
+        color: white;
+        h2{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 20px;
+
+        .Footer--Section3__Card{
+            .Footer--Contenedor__ContenedorDatos{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+    
+                p{
+                    margin-bottom: 1px;
+                }
+            }
+        }
+        .Footer--Section1 , .Footer--Section2 , .Footer--Section3{
+            width: 100%;
+        }
+           
+    }
+}
+@media screen and (min-width: 1024px){
+  
+}

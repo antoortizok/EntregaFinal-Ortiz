@@ -5,67 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de mi</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="/sass/main.css">
 
 </head>
 <body>   <!-- el header tiene dos elementos adentro el Logo y el navigator -->
-    <header class="header">
-        <!-- logo -->
-        <div class="logo"><img src="logo.svg" alt=""></div>
-        <!-- navigator -->
-        <div class="nav-header">
-            <!-- a su vez el navigator tiene una lista de elementos entonces creo la lista con ul, li -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Acerca de mi</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="vivirenirlanda.html">Vivir en Irlanda</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-
+    <header>
+        <nav>
+            <section class="Nav--Section__contenedorLogo">
+                <img class="Nav--Section__contenedorLogo--Img" src="img/logo.png" alt="">
+            </section>
+            <section class="Nav--Section__contenedorEnlaces">
+                <a href="index.html" class="Nav--contenedorEnlaces__Enlaces ">Inicio</a>
+                <a href="Sobre mi.html" class="Nav--contenedorEnlaces__Enlaces select">Sobre mi</a>
+                <a href="irlanda.html" class="Nav--contenedorEnlaces__Enlaces">Vivir en Irlanda</a>
+                <a href="Asesoria.html" class="Nav--contenedorEnlaces__Enlaces">Servicios</a>
+                <a href="contacto.html" class="Nav--contenedorEnlaces__Enlaces">Contacto</a>
+            </section>
+        </nav>
     </header>
-    <div class="content">
-        <!-- el content-first tiene tres elementos adentro img,article, button -->
-        <div class="content-first">
-        <div>
-            <main>
-            <h1> Un poco de mi...</h1>
-            <p> Soy Antonella, naci en Dolores, Buenos Aires un 2 de mayo. Inquieta por naturaleza, buscando mi lugar. Lo que me llevo a tomar un camino diferente un 25 de abril del 2019 y terminar viviendo en Dublin. Un poco con el objetivo de estudiar ingles y conocer el mundo, pero tal vez sabiendo que en el fondo buscaba otro destino. Como muchos, no llegue con el maravilloso pasaporte europeo, al menos en ese entonces. Una vez en Irlanda comence mi busqueda personal y por que no profesional tambien. Siendo Licenciada en Relaciones Publicas e Institucionales con conocimientos en Marketing Digital empece a incursionar otras areas que si bien por mi lado artistico por dedicarme tambien a cantar, ya sabia que estaba. Pandemia mediante, se abrio la posibilidad de realizar notas en television de como era vivir en pandemia en Irlanda y esas reiteradas oportunidades en la pantalla chica me hicieron darme cuenta que me gustaba compartir mas de mi vida en Irlanda con ustedes y asi empece a volcarlo en mis redes. La cosa no termino ahi, quise dar un paso mas y sabiendo mi posibilidad familiar de lograr el ansiado pasaporte europeo, para no depender de una visa de estudio o trabajo, me embarque rumbo a Italia, donde vivi 6 meses. Esa es otra larga historia que les puedo compartir, pero vamos a lo primero y los invito a conocer Irlanda.</p>
-            </main>
-        </div>
-    </div>
 
-<br><br><br><br><br><br><br><br><br>
+    <main class="ContenedorSobremiPage">
+        <img class="ContenedorSobremiPage--img" src="/img/BTVO7217.webp" alt="">
+        <p class="ContenedorSobremiPage--p">
+            Soy Antonella, naci en Dolores, Buenos Aires un 2 de mayo. Inquieta por naturaleza, buscando mi lugar. Lo que me llevo a tomar un camino diferente un 25 de abril del 2019 y terminar viviendo en Dublin. Un poco con el objetivo de estudiar ingles y conocer el mundo, pero tal vez sabiendo que en el fondo buscaba otro destino. Como muchos, no llegue con el maravilloso pasaporte europeo, al menos en ese entonces. Una vez en Irlanda comence mi busqueda personal y por que no profesional tambien. Siendo Licenciada en Relaciones Publicas e Institucionales con conocimientos en Marketing Digital empece a incursionar otras areas que si bien por mi lado artistico por dedicarme tambien a cantar, ya sabia que estaba. Pandemia mediante, se abrio la posibilidad de realizar notas en television de como era vivir en pandemia en Irlanda y esas reiteradas oportunidades en la pantalla chica me hicieron darme cuenta que me gustaba compartir mas de mi vida en Irlanda con ustedes y asi empece a volcarlo en mis redes. La cosa no termino ahi, quise dar un paso mas y sabiendo mi posibilidad familiar de lograr el ansiado pasaporte europeo, para no depender de una visa de estudio o trabajo, me embarque rumbo a Italia, donde vivi 6 meses. Esa es otra larga historia que les puedo compartir, pero vamos a lo primero y los invito a conocer Irlanda.
 
-    <div class="footer">
-        <div class="colA" id="about">
-            <h2>Acerca de mi</h2>
-            <p>Ofrezco mentoria personalizada para ayudarte a dar ese salto que venis postergando para venir a
-                Irlanda.</p>
-        </div>
-        <div class="colB" id="contact">
-            <h2>Contacto</h2>
-            <h3>Podes encontrarme aqui:</h3>
-            <p>Dublin, Irlanda</p>
-            <p>(100) 222-3344</p>
-            <p>antoortiz.pr@gmail.com</p>
-        </div>
-        <div class="colC" id="blog">
-            <h2> Redes sociales</h2>
-            <p> Seguime para estar atento a todas las novedades!</p>
-            <p class="content-instagram">
-                <img src="./iconmonstr-instagram-11-240.png" alt="Ig"> @antoortizok
-            </p>
-            <p class="content-twitter">
-                <img src="./iconmonstr-twitter-5-240.png" alt="Tw"> @antonellaortiz
-            </p>
-        </div>
-    </div>  
-    <div class="clear"></div>
-    <div class="copyright">
-        <p>&copy;antonelitoviajero2022</p> 
-    </div>
+        </p>
+    </main>
+
+
+
+
+    <footer>
+        <section class="Footer--Section1">
+            <article class="Footer--Section1__Card">
+                <h2 class="Footer--Section1__Card--Titulo">Acerca de mi</h2>
+                <p class="Footer--Section1__Card--parrafo">Ofrezco mentoria personalizada para ayudarte a dar ese salto
+                    que venis postergando para venir a Irlanda.</p>
+            </article>
+        </section>
+        <section class="Footer--Section2">
+            <article class="Footer--Section2__Card">
+                <h2 class="Footer--Section2__Card--Titulo">Contacto</h2>
+                <h5 class="Footer--Section2__Card--Parrafo">Podes encontrarme aqui:</h5>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <p>Dublin, Irlanda</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                    <p>(100) 222-3344</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                    <p>antoortiz.pr@gmail.com</p>
+                </div>
+
+            </article>
+        </section>
+        <section class="Footer--Section3">
+            <article class="Footer--Section3__Card">
+                <h2 class="Footer--Section3__Card--Titulo">Redes sociales</h2>
+                <h5 class="Footer--Section3__Card--Parrafo">Seguime para estar atento a todas las novedades!</h5>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg>
+                    <p>Instagram</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+                    </svg>
+                    <p>Tiktok</p>
+                </div>
+                <div class="Footer--Contenedor__ContenedorDatos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                    <p>Tweet</p>
+                </div>
+            </article>
+        </section>
+    </footer>
 </body>
 
 

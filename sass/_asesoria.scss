@@ -1,0 +1,26 @@
+.Cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .Cont--Card{
+        height: 60vh;
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .Cont--Card__img{
+            width: 20%;
+        }
+        .Cont--Card__btn{
+            text-decoration: none;
+            color: white;
+            border-radius: 20px;
+            background-color: #427AA1;
+            padding: 0.5em 1em;
+        }
+    }
+}

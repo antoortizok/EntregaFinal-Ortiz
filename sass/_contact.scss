@@ -1,0 +1,40 @@
+.PageContact-Container{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    background-image: url(/img/ContactBck.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    form{
+        background-color: rgba(0, 0, 0, 0.384);
+        padding: 2em;
+        border-radius: 10px;
+        margin-right: 20em;
+        .form-enviar{  
+            background-color: rgba(255, 255, 255, 0.356);
+            border: none;
+            padding: 0.6em;
+            border-radius: 10px;
+        }
+        .form-enviar:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .PageContact-Container{
+
+        justify-content: center;
+        form{
+            margin: 0em;
+        }
+    }
+
+}

@@ -63,6 +63,7 @@ nav a:hover {
 main {
     background-color: var(--background);
 
+
 }
 
 .SectionUno {
@@ -77,6 +78,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    
 }
 
 .SectionUno--Card__Boton {
@@ -216,6 +218,7 @@ textarea {
     margin-right: 2em;
     margin-bottom: 2em;
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.607);
+    z-index: 999;
 }
 
 
@@ -251,6 +254,7 @@ textarea {
         height: 100vh;
         margin-top: 6em;
         background-position-x: -25em;
+        margin-right: 0px;margin-left: 0px;
     }
 
     .SectionDos {
